@@ -80,4 +80,3 @@ export default function SimpleAccordion() {
         </Box>
     );
 }
-export default SimpleAccordion
