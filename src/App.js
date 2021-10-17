@@ -1,7 +1,6 @@
 import Back from "./Components/LogIn/Back";
 import Body from "./Components/Dashboard/Body";
 import UserProf from "./Components/UserProfile/UserProf";
-import { Button } from '@mui/material';
 import { Switch, Route, Link } from 'react-router-dom'
 import './App.css'
 import NavBar from "./Components/Navigation/NavBar";
