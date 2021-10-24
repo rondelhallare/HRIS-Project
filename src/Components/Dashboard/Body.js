@@ -1,10 +1,8 @@
 import React from 'react'
 import { Box } from '@mui/system';
-import { Typography } from '@mui/material';
-// import ClockIn from './ClockIn';
-// import BodyTitle from './BodyTitle';
-// import ResponsiveDrawer from './ResponsiveDrawer';
-// import TimeDisplay from './TimeDisplay';
+import ClockIn from './ClockIn';
+import BodyTitle from './BodyTitle';
+import TimeDisplay from './TimeDisplay';
 // import CalendarDash from './CalendarDash';
 
 
@@ -12,7 +10,7 @@ function Body() {
     return (
         <Box>
 
-            {/* <BodyTitle /> */}
+            <BodyTitle />
 
             <Box sx={{
                  display: 'flex',
@@ -23,9 +21,9 @@ function Body() {
 
                 {/* <CalendarDash /> */}
 
-                {/* <ClockIn />
+                <ClockIn />
 
-                <TimeDisplay /> */}
+                <TimeDisplay />
 
             </Box>
         </Box>
