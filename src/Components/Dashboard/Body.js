@@ -3,7 +3,11 @@ import { Box } from '@mui/system';
 import ClockIn from './ClockIn';
 import BodyTitle from './BodyTitle';
 import TimeDisplay from './TimeDisplay';
-// import CalendarDash from './CalendarDash';
+import BoxContent from './BoxContent';
+import Content1 from './Content1';
+import EventHighlight from './EventHighlight';
+import UserDisplay from './UserDisplay';
+import VerseDisplay from './VerseDisplay';
 
 
 function Body() {

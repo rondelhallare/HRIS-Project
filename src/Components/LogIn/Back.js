@@ -21,9 +21,9 @@ function Back() {
                     textAlign: 'center',
                     justifyContent: 'center',
                     minHeight: '60vh',
-                }
-                }
-                >
+                    boxShadow: 10,
+                    borderRadius: '20px',
+                }}>
                     <Header />
                     <Form />
                 </Box>

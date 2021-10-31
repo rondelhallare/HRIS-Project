@@ -58,7 +58,7 @@ function Form() {
                         defaultValue=""
 
                         sx={{
-                            width: '80%',
+                            width: '100%',
                             borderRadius: '20px',
 
                         }}
@@ -79,7 +79,7 @@ function Form() {
                         label="Required"
                         defaultValue=""
                         sx={{
-                            width: '80%',
+                            width: '100%',
                             borderRadius: '20px',
                         }}
                     />
