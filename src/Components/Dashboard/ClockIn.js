@@ -11,7 +11,10 @@ const ClockIn = () => {
                 fontSize: '25px',
                 fontWeight: 'medium',
                 color: '#FFFFFF',
-                borderRadius: '10px'
+                borderRadius: '10px',
+                p: '12px',
+                m: '12px',
+                boxShadow: 8,
             }}>
                 CLOCK IN
             </Button>

@@ -13,21 +13,81 @@ function Body() {
             <BodyTitle />
 
             <Box sx={{
-                 display: 'flex',
-                 alignItems: 'left',
-                 textAlign: 'left',
-                 justifyContent: 'left',
+                display: 'flex',
+                flexDirection: 'row',
+                p: '10px',
+                m: '10px',
             }}>
 
-                {/* <CalendarDash /> */}
+                <Box>
+                    <Box sx={{
+                        display: 'flex',
+                        alignItems: 'left',
+                        textAlign: 'left',
+                    }}>
+                        <Box>
+                            <ClockIn />
+                        </Box>
 
-                <ClockIn />
+                        <Box>
+                            <TimeDisplay />
+                        </Box>
+                    </Box>
 
-                <TimeDisplay />
+                    <Box>
+                        <Content1 />
+                    </Box>
+
+                    <Box>
+                        <BoxContent />
+                    </Box>
+
+                    <Box sx={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        textAlign: 'center',
+                        justifyContent: 'center',
+
+                    }}>
+                        <VerseDisplay />
+                    </Box>
+                </Box>
+
+
+
+                <Box>
+                    <Box sx={{
+                        display: 'flex',
+                        justifyContent: 'right',
+                        alignItems: 'right',
+                        textAlign: 'right',
+                    }}>
+                        {/* UserDisplay Component */}
+                        <Box sx={{
+
+                        }}>
+                            <UserDisplay />
+                        </Box>
+                    </Box>
+
+                    <Box sx={{
+                        display: 'flex',
+                        alignItems: 'right',
+                        textAlign: 'right',
+                    }}>
+                        {/* Event Component */}
+                        <Box sx={{
+                            pl: '10vh',
+                        }}>
+                            <EventHighlight />
+                        </Box>
+                    </Box>
+                </Box>
 
             </Box>
         </Box>
-        
+
+
     )
 }
 
