@@ -36,9 +36,7 @@ function Form() {
                 }}>
                     <Typography sx={{
                         fontWeight: 'bold',
-                        fontSize: '35px',
-
-
+                        fontSize: '40px',
                     }}
                     >Log in to your account!</Typography>
 
@@ -47,10 +45,10 @@ function Form() {
                         fontWeight: 'bold',
                         fontSize: '25px',
                         fontFamily: 'Montserrat',
-                        pb: '5px',
+                        pb: '8px',
                     }} >
 
-                        Username</Typography>
+                        Email</Typography>
                     <TextField
                         required
                         id="outlined-required"
@@ -61,16 +59,14 @@ function Form() {
                             width: '100%',
                             borderRadius: '20px',
 
-                        }}
-                    />
-
+                        }}/>
                     <br></br>
                     <br></br>
                     <Typography sx={{
                         fontWeight: 'bold',
                         fontSize: '25px',
                         fontFamily: 'Montserrat',
-                        pb: '5px',
+                        pb: '8px',
                     }}>
                         Password</Typography>
                     <TextField
@@ -92,9 +88,10 @@ function Form() {
                         alignItems: 'center',
                     }}>
                         <Button color="secondary" variant="contained" sx={{
-                            fontSize: '20px',
+                            fontSize: '25px',
                             fontWeight: 'medium',
-                            fontColor: '#FFFFFF',
+                            color: '#FFFFFF',
+                            borderRadius: '10px'
                         }}>
                             Sign In
                         </Button>
