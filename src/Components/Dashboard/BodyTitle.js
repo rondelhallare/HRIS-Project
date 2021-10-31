@@ -10,6 +10,7 @@ const BodyTitle = () => {
                  color: 'black',
                  fontSize: '50px',
                  textAlign: 'left',
+                 pl: '30px',
             }}>
                 DASHBOARD
             </Typography>
