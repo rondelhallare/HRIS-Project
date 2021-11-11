@@ -19,7 +19,7 @@ const UserAvatar = () => {
                     width: 76,
                     height: 76,
                     mr: '5px',
-                    bgcolor: 'secondary.main',
+                    bgcolor: 'primary.main',
 
                 }}>
                     RH

@@ -1,28 +1,30 @@
 import { Box } from '@mui/system';
 import React from 'react'
 import SimpleAccordion from './SimpleAccordion';
+import bg2 from '../../Assets/bg2.png';
 
 function UserProf() {
     return (
-       <Box sx = {{
-        display: 'flex',
-        alignItems: 'center',
-        textAlign: 'center',
-        justifyContent: 'center',
-        bgcolor: 'white',
-        minHeight: '100vh',
-        width: 'auto',
-       }}>
-        <Box sx = {{
+        <Box sx={{
             display: 'flex',
+            alignItems: 'center',
             textAlign: 'center',
             justifyContent: 'center',
-            minHeight: '60vh',
+            bgcolor: 'white',
+            height: "calc(100vh - 80px)",
+            width: 'auto',
+            backgroundImage: `url(${bg2})`,
         }}>
-            <SimpleAccordion />
+            <Box sx={{
+                display: 'flex',
+                textAlign: 'center',
+                justifyContent: 'center',
+                minHeight: '50vh',
+            }}>
+                <SimpleAccordion />
+            </Box>
+
         </Box>
-           
-       </Box>
     )
 }
 

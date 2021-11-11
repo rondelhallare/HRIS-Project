@@ -15,7 +15,6 @@ const EmployeeBox1 = () => {
         }}>
             <Box sx = {{
                 alignItems: 'left',
-
             }}>
                 <Typography sx = {{
                     fontWeight: 'medium',
