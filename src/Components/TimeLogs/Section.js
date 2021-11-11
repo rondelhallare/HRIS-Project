@@ -21,7 +21,8 @@ function Section() {
                     <Item sx={{
                         borderRadius: '10px',
                         bgcolor: 'primary.main',
-                        height: '78vh',
+                        minHeight: '75vh',
+                        mt: '3px',
                         boxShadow: 3,
                         borderRadius: '10px',
                     }}>
@@ -59,7 +60,8 @@ function Section() {
                     <Item sx={{
                         borderRadius: '10px',
                         bgcolor: 'primary.main',
-                        height: '78vh',
+                        minHeight: '75vh',
+                        mt: '3px',
                         boxShadow: 3,
                         borderRadius: '10px',
                     }}>
@@ -97,7 +99,8 @@ function Section() {
                     <Item sx={{
                         borderRadius: '10px',
                         bgcolor: 'primary.main',
-                        height: '78vh',
+                        minHeight: '75vh',
+                        mt: '3px',
                         boxShadow: 3,
                         borderRadius: '10px',
                     }}>
@@ -134,7 +137,8 @@ function Section() {
                     <Item sx={{
                         borderRadius: '10px',
                         bgcolor: 'primary.main',
-                        height: '78vh',
+                        minHeight: '75vh',
+                        mt: '3px',
                         boxShadow: 3,
                         borderRadius: '10px',
                     }}>

@@ -24,7 +24,7 @@ function TimeBody() {
                 bgcolor: 'pengu.main',
                 boxShadow: 5,
                 borderRadius: '10px',
-                height: '80vh',
+                minHeight: '78vh',
                 width: '80%',
                 p: '0 3%',
                 m: '0 10%',
