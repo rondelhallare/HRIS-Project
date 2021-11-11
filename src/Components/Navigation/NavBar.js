@@ -1,13 +1,11 @@
 import React from 'react'
-import Typography from '@mui/material/Typography';
 import { Box } from '@mui/system';
+import NavBarTry from './NavBarTry';
 
-
-
-const NavBar = () => {
+function NavBar() {
     return (
         <Box>
-            test
+            <NavBarTry />
         </Box>
     )
 }
