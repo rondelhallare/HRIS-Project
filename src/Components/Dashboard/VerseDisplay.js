@@ -6,11 +6,12 @@ function VerseDisplay() {
     return (
         <Box sx={{
             bgcolor: 'primary.main',
-            height: '6vh',
-            width: '100%',
+            maxHeight: '8vh',
+            maxWidth: '100%',
             borderRadius: '20px',
-            p: '12px',
-            m: '12px',
+            boxShadow: 10,
+            p: '10px',
+            m: '10px',
         }}>
             <Typography sx={{
                 fontSize: '25px',

@@ -6,14 +6,14 @@ const TimeDisplay = () => {
         <Box sx = {{
             borderRadius: '10px',
             bgcolor: 'secondary.main',
-
+            boxShadow: 8,
         }}>
             <Box color="secondary" sx={{
-                fontSize: '25px',
+                fontSize: '30px',
                 fontWeight: 'medium',
                 color: '#FFFFFF',
-                p: '12px',
-                m: '12px',
+                p: '10px',
+                m: '9px',
             }}>
                 TIME: 8:20:45
             </Box>

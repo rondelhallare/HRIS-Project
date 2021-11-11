@@ -8,9 +8,9 @@ function BoxContent() {
             <Box sx = {{
                 borderRadius: '20px',
                 bgcolor: 'primary.main',
-                p: '15px',
-                m: '15px',
-                width: '20%',
+                p: '8px',
+                m: '8px',
+                maxWidth: '30vh',
                 boxShadow: 10,
 
             }}>
@@ -26,13 +26,13 @@ function BoxContent() {
             </Box>
 
             <Box sx = {{
-                borderRadius: '20px',
-                bgcolor: 'secondary.main',
-                p: '15px',
-                m: '15px',
-                height: '25vh',
-                width: '100%',
-                boxShadow: 10,
+               borderRadius: '20px',
+               bgcolor: 'secondary.main',
+               p: '15px',
+               m: '15px',
+               maxHeight: '30vh',
+               maxWidth: '100%',
+               boxShadow: 10,
             }}>
                 <Typography sx = {{
                     fontWeight: 'medium',
@@ -41,11 +41,11 @@ function BoxContent() {
                     textAlign: 'left',
                     justifyContent: 'left',
                 }}>
-                    HRIS DEPARTMENT
+                    HRIS DEPARTMENT,
                     <br></br>
                     <br></br>
                     Please finish coding the design of the overall system.
-                    After that we can start with the integration.
+                    After that we can start with the integration. Planned schedule of integration is on November 12, 2021
                     <br></br> 
                     <br></br> 
                     Sincerely, HRIS BOSS.

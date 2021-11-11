@@ -4,14 +4,18 @@ import React from 'react'
 
 function EventHighlight() {
     return (
-        <Box>
+        <Box sx = {{
+            display: 'flex',
+            flexDirection: 'column',
+        }}>
             <Box sx={{
-                borderRadius: '20px',
+                borderRadius: '15px',
                 bgcolor: 'primary.main',
-                justifyContent: 'center',
-                alignItems: 'center',
-                m: '15px',
-                width: '20vh',
+                alignSelf: 'center',
+                p: '5px',
+                m: '5px',
+                maxHeight: '8vh',
+                width: '25vh',
                 boxShadow: 10,
             }}>
                 <Typography sx={{
@@ -28,11 +32,11 @@ function EventHighlight() {
 
             <Box sx={{
                 borderRadius: '20px',
-                bgcolor: 'secondary.main',
-                p: '15px',
-                m: '15px',
-                height: '25vh',
-                width: '100%',
+                bgcolor: 'primary.main',
+                p: '10px',
+                m: '10px',
+                maxheight: '20vh',
+                minWidth: '70%',
                 boxShadow: 10,
             }}>
                 <Typography sx={{
@@ -40,14 +44,12 @@ function EventHighlight() {
                     fontSize: '20px',
                     color: 'white',
                     textAlign: 'left',
-                    justifyContent: 'center',
-                    aligntItems: 'left',
                     fontFamily: 'Montserrat',
                 }}>
-                   <li>Welcome Party</li>
-                   <li>New Valorant Battelpass</li>
-                   <li>Sees Optimum Pride EGHUHGEHHUGUH</li>
-
+                   <li style = {{color: "white", backgroundColor: "#0ABAB5", borderRadius: "10px", padding: "5px", marginBottom: "10px"}}>Welcome Party of New Employees</li>
+                        <li style = {{color: "white", backgroundColor: "#0ABAB5", borderRadius: "10px", padding: "5px", marginBottom: "10px"}}>Online Meeting On: November 1, 2021</li>
+                        <li style = {{color: "white", backgroundColor: "#0ABAB5", borderRadius: "10px", padding: "5px", marginBottom: "10px"}}>Integration of BackEnd On: November 10, 2021</li>
+                        <li style = {{color: "white", backgroundColor: "#0ABAB5", borderRadius: "10px", padding: "5px"}}>Project Presentation: Human Resources Information System</li>
                 </Typography>
             </Box>
         </Box>

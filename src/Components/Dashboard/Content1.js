@@ -10,13 +10,14 @@ function Content1() {
                 bgcolor: 'primary.main',
                 p: '10px',
                 m: '10px',
-                width: '40%',
+                maxheight: '30vh',
+                maxWidth: '40vh',
                 boxShadow: 10,
 
             }}>
                 <Typography sx = {{
                     fontWeight: 'bold',
-                    fontSize: '25px',
+                    fontSize: '30px',
                     fontFamily: 'Montserrat',
                     justifyContent: 'center',
                     textAlign: 'center',
@@ -30,10 +31,9 @@ function Content1() {
                 bgcolor: 'secondary.main',
                 p: '15px',
                 m: '15px',
-                height: '25vh',
-                width: '100%',
+                maxheight: '30vh',
+                maxWidth: '100%',
                 boxShadow: 10,
-
             }}>
                 <Typography sx = {{
                     fontWeight: 'medium',
@@ -45,11 +45,9 @@ function Content1() {
                     RE: Special meeting on profit-sharing plan
                     <br></br>
                     <br></br>
-                    John Doe would like to meet with employees this Friday
-                    to discuss the possibility of <br></br> 
-                    a long-term profit-sharing 
-                    program. 
-
+                    The Team Leader would like to meet with all of the employees this Friday. 
+                    The main agenda for the meeting is to discuss the possibility of a long-term profit-sharing. 
+                    The Human Resource Information System will also be introduced and implemented in the company as soon as possible.
                 </Typography>
             </Box>
         </Box>
