@@ -7,9 +7,9 @@ const UserTitle = () => {
         <Box>
             <Typography sx = {{
                  fontWeight: 'bold',
-                 color: 'blac',
+                 color: 'black',
                  fontSize: '50px',
-                 textAlign: 'left',
+                 textAlign: 'center',
             }}>
                 USER PROFILE 
             </Typography>
