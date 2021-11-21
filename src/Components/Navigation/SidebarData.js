@@ -36,7 +36,7 @@ const SidebarData = [
     // },
     {
         title: 'Support',
-        path: '/support',
+        path: '/Support',
         icon: <FiIcons.FiMail />,
         cName: 'nav-text'
     }

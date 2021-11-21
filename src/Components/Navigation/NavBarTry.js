@@ -13,6 +13,7 @@ import TimeBody from "../TimeLogs/TimeBody";
 import UserProf from "../UserProfile/UserProf";
 import Back from "../LogIn/Back";
 import NavUserDisplay from "./NavUserDisplay";
+import SupportBack from '../Support/SupportBack';
 
 function NavBarTry() {
 
@@ -130,6 +131,9 @@ function NavBarTry() {
                                         location.pathname === "/TimeLogs" ?
                                             <TimeBody />
                                             :
+                                            location.pathname === "/Support" ?
+                                                <SupportBack />
+                                                :
                                             ""
                         }
                     </IconContext.Provider>
