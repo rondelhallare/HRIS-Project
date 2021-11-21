@@ -14,6 +14,8 @@ import UserProf from "../UserProfile/UserProf";
 import Back from "../LogIn/Back";
 import NavUserDisplay from "./NavUserDisplay";
 import SupportBack from '../Support/SupportBack';
+import Notice from '../NoticeBoard/Notice';
+import id from '../../Assets/id.png';
 
 function NavBarTry() {
 
@@ -113,6 +115,11 @@ function NavBarTry() {
                                             </li>
                                         );
                                     })}
+                                     <Box sx = {{
+                                        mt: '35vh',
+                                    }}>
+                                        <img src={id} alt="" height={200} />
+                                    </Box>
                                 </ul>
 
                         {/* Routing */}
@@ -134,6 +141,9 @@ function NavBarTry() {
                                             location.pathname === "/Support" ?
                                                 <SupportBack />
                                                 :
+                                                location.pathname === "/NoticeBoard" ?
+                                                    <Notice />
+                                                    :
                                             ""
                         }
                     </IconContext.Provider>

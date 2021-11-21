@@ -24,7 +24,7 @@ const SidebarData = [
     },
     {
         title: 'NoticeBoard',
-        path: '/noticeboard',
+        path: '/NoticeBoard',
         icon: <FiIcons.FiCalendar />,
         cName: 'nav-text'
     },

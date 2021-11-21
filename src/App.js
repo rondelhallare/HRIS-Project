@@ -5,6 +5,7 @@ import NavBar from "./Components/Navigation/NavBar";
 import { Switch, Route, Link, BrowserRouter as router } from 'react-router-dom'
 import './App.css'
 import TimeBody from "./Components/TimeLogs/TimeBody";
+import Notice from "./Components/NoticeBoard/Notice";
 import SupportBack from "./Components/Support/SupportBack";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Route path='/UserProfile' component={UserProf} />
       <Route path='/TimeLogs' component={TimeBody} />
       <Route path='/Support' component = {SupportBack} />
+      <Route path='/NoticeBoard' component = {Notice} />
 
     </Switch>
 

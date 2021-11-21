@@ -1,0 +1,76 @@
+
+  body, html {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .App .card-wrapper {
+    position: relative;
+    padding: 10px 0 0;
+  }
+  
+  .App .card-wrapper .box {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 20px;
+    background: #0abab5;
+    border-radius: 5px;
+  }
+  
+  .App .card-wrapper .card {
+    color: white;
+  }
+  
+  .App .card-wrapper .card .title {
+    position: absolute;
+    background: #43D6D1;
+    color: black;
+    border-radius: 5px;
+    -webkit-box-shadow: 5px;
+            box-shadow: 10px;
+    text-align: center;
+  }
+  
+  .App .card-wrapper .card .title * {
+    margin: 5px 15px;
+  }
+  
+  .App .card-wrapper .card.announcements {
+    background: #0abab5;
+  }
+  
+  .App .card-wrapper .card.announcements .title {
+    top: 0;
+    left: 20px;
+  }
+  
+  .App .card-wrapper.news {
+    position: relative;
+  }
+  
+  .App .card-wrapper.news .title {
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 20%;
+  }
+  
+  .App .card-wrapper.news p {
+    color: black;
+  }
+  
+  .App .card-wrapper.events {
+    margin-top: 5px;
+  }
+  
+  .App .card-wrapper.events .card {
+    background: #0abab5;
+    padding: 0;
+  }
+  
+  .App .card-wrapper.events .title {
+    top: 0;
+    padding: 0 40px;
+    left: 10px;
+  }
+  
