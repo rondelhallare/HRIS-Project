@@ -8,11 +8,14 @@ import Content1 from './Content1';
 import EventHighlight from './EventHighlight';
 import VerseDisplay from './VerseDisplay';
 import CalendarDash from './CalendarDash';
-
+import Trippy from '../../Assets/Trippy.png';
 
 function Body() {
     return (
-        <Box>
+        <Box sx = {{
+            backgroundImage: `url(${Trippy})`,
+            height: "calc(100vh - 80px)",
+        }}>
             <BodyTitle />
 
             <Box sx={{
