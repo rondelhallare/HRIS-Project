@@ -1,12 +1,15 @@
 import React from 'react'
 import { Box } from '@mui/system';
-import { Switch, Route, Link, BrowserRouter as router } from 'react-router-dom'
 import Section from './Section';
 import TimeLogsTitle from './TimeLogsTitle';
+import BgHexa from '../../Assets/BgHexa.png';
 
 function TimeBody() {
     return (
-        <Box>
+        <Box sx = {{
+            backgroundImage: `url(${BgHexa})`,
+            height: "calc(100vh - 80px)",
+        }}>
 
             {/* Main Body */}
             <Box sx={{
